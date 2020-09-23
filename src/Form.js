@@ -39,7 +39,7 @@ class Form extends Component {
       emailConsent: this.state.contact,
     };
 
-    return axios
+    axios
       .post(
         'https://my-json-server.typicode.com/JustUtahCoders/interview-users-api/users',
         JSON.stringify(postBody)
